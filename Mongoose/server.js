@@ -20,8 +20,8 @@ const Person = mongoose.model('Person', personSchema);
 // Create first record in a Person Model
 
 const firstPerson = new Person({
-    name: 'Ahmed',
-    age: 29,
+    name: 'chayma',
+    age: 23,
     favoriteFoods: ['Orange', 'Frawla']
 })
 
@@ -56,8 +56,8 @@ Person.create([
 
 // Find all the people having a given name
 
-Person.find({ name: 'Ahmed' }, (err, data) => {
-    err ? console.error(err) : console.log(`There are ${data.length} person having name = Ahmed`)
+Person.find({ name: 'chayma' }, (err, data) => {
+    err ? console.error(err) : console.log(`There are ${data.length} person having name = chayma`)
 })
 
 //FindOne operation by favorite food
