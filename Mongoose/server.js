@@ -33,13 +33,13 @@ firstPerson.save((err, data) => {
 
 Person.create([
     {
-        name: 'Slim',
+        name: 'henda',
         age: 32,
         favoriteFoods: ['Orange', 'Frawla']
     },
 
     {
-        name: 'Tarek',
+        name: 'asma',
         age: 26,
         favoriteFoods: ['Banane']
     },
