@@ -46,7 +46,7 @@ Person.create([
 
     {
         name: 'Hend',
-        age: 23,
+        age: 29,
         favoriteFoods: ['Manga', 'Kiwi']
     }
 ], err => {
